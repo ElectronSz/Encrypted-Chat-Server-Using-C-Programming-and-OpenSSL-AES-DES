@@ -10,7 +10,7 @@ This is a client - server user-level application using sockets Programming in C.
     * Usage of Basic Networking Concepts & Linux Os for executing client and server programs
 
 
-Future Improvements :
+> Future Improvements :
 
     - Accept multiple Clients 
     - Create Chat Logs between client and server
