@@ -18,3 +18,7 @@ This is a client - server user-level application using sockets Programming in C.
     - Using C graphics library add GUI (graphics user interface)
     - Name and rename users | Block clients
     
+```python
+s = "Python syntax highlighting"
+print s
+```
