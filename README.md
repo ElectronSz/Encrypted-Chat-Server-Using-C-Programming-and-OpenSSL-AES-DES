@@ -680,14 +680,11 @@ This is a client - server user-level application using sockets Programming in C.
 ```
 
 
-Executing Commands :
+> Executing Commands :
 
-Creating OpenSSL certificates :
+>> Creating OpenSSL certificates :
 
 openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
-
-
-
 
 Creating certificate with Authentication:
 
