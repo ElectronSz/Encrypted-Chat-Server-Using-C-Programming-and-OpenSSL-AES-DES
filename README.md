@@ -682,37 +682,32 @@ This is a client - server user-level application using sockets Programming in C.
 
 > Executing Commands :
 
->> Creating OpenSSL certificates :
+#### Creating OpenSSL certificates :
 
-openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
++openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
 
-Creating certificate with Authentication:
+#### Creating certificate with Authentication:
 
-OpenSSL Guide: https://help.ubuntu.com/community/OpenSS
++OpenSSL Guide: https://help.ubuntu.com/community/OpenSS
 
+#### Compiling Server.c :
 
-Compiling Server.c :
++ Command Line : gcc -Wall -o ssl-server ssl-server.c -L/usr/lib -lssl -lcrypto
 
-Command Line : gcc -Wall -o ssl-server ssl-server.c -L/usr/lib -lssl -lcrypto
+#### Executing Server :
 
++ Command Line : sudo ./ssl-server || Ex: sudo ./ssl-server 6000
 
-Executing Server :
+#### Compiling Client.c :
 
-Command Line : sudo ./ssl-server || Ex: sudo ./ssl-server 6000
++ Command Line : gcc -Wall -o ssl-client ssl-client.c -L/usr/lib -lssl -lcrypto
 
+#### Executing Client :
 
-Compiling Client.c :
++ Command Line : ./ssl-client   || ./ssl-client 192.168.43.54 6000
 
-  Command Line : gcc -Wall -o ssl-client ssl-client.c -L/usr/lib -lssl -lcrypto
+#### Monitoring Traffic using ssldump :
 
-
-Executing Client :
-
-Command Line : ./ssl-client   || ./ssl-client 192.168.43.54 6000
-
-
-Monitoring Traffic using ssldump :
-
-ssldump -i wlan0 port 6000
++ ssldump -i wlan0 port 6000
 
 
