@@ -17,5 +17,22 @@ This is a client - server user-level application using sockets Programming in C.
     - Add file transfer + Video conferencing (need to use Java | Python programming)
     - Using C graphics library add GUI (graphics user interface)
     - Name and rename users | Block clients
+    
 
+`code()`
+
+    var specificLanguage_code = 
+    {
+        "data": {
+            "lookedUpPlatform": 1,
+            "query": "Kasabian+Test+Transmission",
+            "lookedUpItem": {
+                "name": "Test Transmission",
+                "artist": "Kasabian",
+                "album": "Kasabian",
+                "picture": null,
+                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
+            }
+        }
+    }
 
