@@ -1,0 +1,2 @@
+# Encrypted-Chat-Server-Using-C-Programming-and-OpenSSL-
+C programming is one of the basic programming, that we need to study for making our base of Computer Science Engineering &amp; Once we are done with learning a programming language, it's a good habit to create a project that relates to real life scenario. So here in this post we are having a detailed overview of a Full Duplex Encrypted Chat Server Using C programming &amp; OpenSS
