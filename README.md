@@ -3,7 +3,7 @@ C programming is one of the basic programming, that we need to study for making 
 
  Various Features Included  :
 
-    Usage of Socket Programming for creating Client & Server program
-    Multi-threading for Full Duplex Communication between Client and Server
-    Encrypted Communication between Client and Server 
-    Usage of Basic Networking Concepts & Linux Os for executing client and server programs
+    * Usage of Socket Programming for creating Client & Server program
+    * Multi-threading for Full Duplex Communication between Client and Server
+    *  Encrypted Communication between Client and Server 
+    * Usage of Basic Networking Concepts & Linux Os for executing client and server programs
