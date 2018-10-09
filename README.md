@@ -1,5 +1,7 @@
 # Encrypted-Chat-Server-Using-C-Programming-and-OpenSSL-
-C programming is one of the basic programming, that we need to study for making our base of Computer Science Engineering &amp; Once we are done with learning a programming language, it's a good habit to create a project that relates to real life scenario. So here in this post we are having a detailed overview of a Full Duplex Encrypted Chat Server Using C programming &amp; OpenSS
+
+This is a client - server user-level application using sockets Programming in C. Server accepts strings from client and can reply to client. Both server and client(s) output's of chat shows on terminal.The server and client processes can run on same or different machines. Server and client connection is encrypted, send and receive messages can't be traced by any intruder as we are using OpenSSL certificates for encryption. In this post only we will have a brief overview of creating Openssl certificates using OpenSSL tool.
+
 
  Various Features Included  :
 
